@@ -11,9 +11,9 @@ if [ $? == 0  ]; then
     echo 'Scala was found'
 else
     # download the src for hadoop, scala and spark
-    wget http://scala-lang.org/files/archive/scala-2.10.4.tgz -P $DOWNLOAD_DIR
+    wget http://downloads.typesafe.com/scala/2.11.5/scala-2.11.5.tgz -P $DOWNLOAD_DIR
     #Extract hadoop and Scala
-    tar -zxf $DOWNLOAD_DIR/scala-2.10.4.tgz -C $DOWNLOAD_DIR
+    tar -zxf $DOWNLOAD_DIR/scala-2.11.5.tgz -C $DOWNLOAD_DIR
     mv $DOWNLOAD_DIR/scala-2.10.4 $SCALA_HOME
     chmod -R 755 $SCALA_HOME
     echo "***** Now Copying Scala *****"
