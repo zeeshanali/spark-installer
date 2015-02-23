@@ -1,5 +1,5 @@
 ===================================
-Install Spark 1.0.0 with YARN 2.2.0
+Install Hadoop with YARN 2.2.0
 ===================================
 
 Requirements
